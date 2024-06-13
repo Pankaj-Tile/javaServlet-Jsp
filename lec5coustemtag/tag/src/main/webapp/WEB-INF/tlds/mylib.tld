@@ -1,0 +1,34 @@
+<taglib>
+    <tag>
+        <name>
+            mytag
+        </name>
+        <tag-class>
+            MyTagSupport
+        </tag-class>
+    </tag>
+    <tag>
+        <name>
+            printTable
+        </name>
+        <tag-class>
+            PrintTable
+        </tag-class>
+        <attribute>
+            <name>
+                number
+            </name>
+            <required>
+                true
+            </required>
+        </attribute>
+        <attribute>
+            <name>
+                color
+            </name>
+            <required>
+                true
+            </required>
+        </attribute>
+    </tag>
+</taglib>
